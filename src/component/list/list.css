@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.listContainer{
+    padding: 1px 10px;
+    margin: 10px 20px;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: white;
+    /* box-shadow:  10px 10px 20px #bcbcbc,
+             -10px -10px 20px #ffffff; */
+    border: 1px solid lightgray
+}
+.imgAvatar{
+    border-radius: 100%;
+}
+.listName{
+    margin-right:50px;
+    margin-left:15px;
+}
